@@ -7,10 +7,14 @@
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
+print("===== Coin Flipper =====")
 
-import random
-random.randint(1,2)
-print("Heads" if random.randint(1,2) == 1 else "Tails")
+import random 
+c_1 = random.randint(1,100)
+if c_1 >= 51:
+    print("Tails")
+else: 
+    print("Heads")
 
 
 
